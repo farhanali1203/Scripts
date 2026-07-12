@@ -573,4 +573,12 @@ spawn(function()
     game:GetService("Debris"):AddItem(notification, 3.5)
 end)
 
-game:GetService("Players").LocalPlayer.CharacterAdded:Conne
+game:GetService("Players").LocalPlayer.CharacterAdded:Connect(function()
+    wait(1)
+    if not gui then
+        createUI()
+    end
+    if not miniGui then
+        createMiniUI()
+    end
+end)

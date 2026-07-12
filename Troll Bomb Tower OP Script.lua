@@ -272,7 +272,7 @@ local function createUI()
     subtitle.Size = UDim2.new(1, -140, 0, 20)
     subtitle.Position = UDim2.new(0, 60, 0, 28)
     subtitle.BackgroundTransparency = 1
-    subtitle.Text = "Source Leaked 😂"
+    subtitle.Text = "Made By @Username_error1404 Follow!"
     subtitle.TextColor3 = Color3.fromRGB(150, 150, 180)
     subtitle.TextSize = 12
     subtitle.TextXAlignment = Enum.TextXAlignment.Left
